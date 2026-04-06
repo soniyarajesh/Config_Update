@@ -30,7 +30,14 @@ class TestCase:
 
 
 class TestCaseGenerator:
-    """Generator for functional test cases from SWS requirements"""
+    """
+    Generator for functional test cases from SWS requirements
+    
+    Note: The internal test_counter is persistent across multiple calls to
+    generate_test_cases() on the same instance. This ensures globally unique
+    test IDs when generating tests in multiple batches. Create a new instance
+    if you need to reset the counter.
+    """
     
     def __init__(self):
         self.test_cases: List[TestCase] = []

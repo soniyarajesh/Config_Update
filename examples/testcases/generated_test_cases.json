@@ -1,7 +1,7 @@
 {
   "test_suite": {
     "name": "AUTOSAR SWS Functional Tests",
-    "created_date": "2026-04-06T13:53:53.465742",
+    "created_date": "2026-04-06T13:57:19.140554",
     "total_tests": 10
   },
   "test_cases": [
@@ -31,7 +31,7 @@
       ],
       "priority": "High",
       "category": "Communication",
-      "created_date": "2026-04-06T13:53:53.465587"
+      "created_date": "2026-04-06T13:57:19.140477"
     },
     {
       "test_id": "TC_SWS_COM_002_002",
@@ -60,7 +60,7 @@
       ],
       "priority": "High",
       "category": "Communication",
-      "created_date": "2026-04-06T13:53:53.465603"
+      "created_date": "2026-04-06T13:57:19.140490"
     },
     {
       "test_id": "TC_SWS_DEM_001_003",
@@ -88,7 +88,7 @@
       ],
       "priority": "High",
       "category": "Diagnostic",
-      "created_date": "2026-04-06T13:53:53.465611"
+      "created_date": "2026-04-06T13:57:19.140495"
     },
     {
       "test_id": "TC_SWS_DEM_002_004",
@@ -117,7 +117,7 @@
       ],
       "priority": "High",
       "category": "Diagnostic",
-      "created_date": "2026-04-06T13:53:53.465616"
+      "created_date": "2026-04-06T13:57:19.140501"
     },
     {
       "test_id": "TC_SWS_NVM_001_005",
@@ -145,7 +145,7 @@
       ],
       "priority": "High",
       "category": "Memory",
-      "created_date": "2026-04-06T13:53:53.465621"
+      "created_date": "2026-04-06T13:57:19.140505"
     },
     {
       "test_id": "TC_SWS_NVM_002_006",
@@ -174,7 +174,7 @@
       ],
       "priority": "High",
       "category": "Memory",
-      "created_date": "2026-04-06T13:53:53.465631"
+      "created_date": "2026-04-06T13:57:19.140508"
     },
     {
       "test_id": "TC_SWS_OS_001_007",
@@ -202,7 +202,7 @@
       ],
       "priority": "Critical",
       "category": "Operating System",
-      "created_date": "2026-04-06T13:53:53.465638"
+      "created_date": "2026-04-06T13:57:19.140512"
     },
     {
       "test_id": "TC_SWS_OS_002_008",
@@ -231,7 +231,7 @@
       ],
       "priority": "Critical",
       "category": "Operating System",
-      "created_date": "2026-04-06T13:53:53.465642"
+      "created_date": "2026-04-06T13:57:19.140515"
     },
     {
       "test_id": "TC_SWS_CAN_001_009",
@@ -259,7 +259,7 @@
       ],
       "priority": "High",
       "category": "Communication",
-      "created_date": "2026-04-06T13:53:53.465647"
+      "created_date": "2026-04-06T13:57:19.140518"
     },
     {
       "test_id": "TC_SWS_CAN_002_010",
@@ -288,7 +288,7 @@
       ],
       "priority": "High",
       "category": "Communication",
-      "created_date": "2026-04-06T13:53:53.465652"
+      "created_date": "2026-04-06T13:57:19.140521"
     }
   ]
 }
