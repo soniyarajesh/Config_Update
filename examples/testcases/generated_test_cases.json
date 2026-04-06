@@ -1,0 +1,294 @@
+{
+  "test_suite": {
+    "name": "AUTOSAR SWS Functional Tests",
+    "created_date": "2026-04-06T13:57:19.140554",
+    "total_tests": 10
+  },
+  "test_cases": [
+    {
+      "test_id": "TC_SWS_COM_001_001",
+      "name": "Test for Communication Stack Initialization",
+      "description": "Functional test case to verify: The communication stack shall be initialized before any communication can occur. All required modules must be configured and ready.",
+      "requirement_id": "SWS_COM_001",
+      "preconditions": [
+        "AUTOSAR software stack is properly configured",
+        "All required modules are initialized",
+        "System is in a stable state"
+      ],
+      "test_steps": [
+        "Initialize the communication module",
+        "Configure communication parameters as per specification",
+        "Send test message through the configured channel",
+        "Verify message transmission",
+        "Check for acknowledgment"
+      ],
+      "expected_results": [
+        "Module initializes successfully",
+        "Configuration is applied correctly",
+        "Message is transmitted without errors",
+        "Acknowledgment is received",
+        "No errors reported"
+      ],
+      "priority": "High",
+      "category": "Communication",
+      "created_date": "2026-04-06T13:57:19.140477"
+    },
+    {
+      "test_id": "TC_SWS_COM_002_002",
+      "name": "Test for Message Transmission",
+      "description": "Functional test case to verify: The communication module shall transmit messages according to the configured protocol and timing parameters.",
+      "requirement_id": "SWS_COM_002",
+      "preconditions": [
+        "AUTOSAR software stack is properly configured",
+        "All required modules are initialized",
+        "System is in a stable state",
+        "Requirement SWS_COM_001 is satisfied"
+      ],
+      "test_steps": [
+        "Initialize the communication module",
+        "Configure communication parameters as per specification",
+        "Send test message through the configured channel",
+        "Verify message transmission",
+        "Check for acknowledgment"
+      ],
+      "expected_results": [
+        "Module initializes successfully",
+        "Configuration is applied correctly",
+        "Message is transmitted without errors",
+        "Acknowledgment is received",
+        "No errors reported"
+      ],
+      "priority": "High",
+      "category": "Communication",
+      "created_date": "2026-04-06T13:57:19.140490"
+    },
+    {
+      "test_id": "TC_SWS_DEM_001_003",
+      "name": "Test for Diagnostic Event Manager Initialization",
+      "description": "Functional test case to verify: The Diagnostic Event Manager shall initialize all configured DTCs and diagnostic events on startup.",
+      "requirement_id": "SWS_DEM_001",
+      "preconditions": [
+        "AUTOSAR software stack is properly configured",
+        "All required modules are initialized",
+        "System is in a stable state"
+      ],
+      "test_steps": [
+        "Initialize diagnostic module",
+        "Trigger diagnostic event",
+        "Read diagnostic trouble code (DTC)",
+        "Verify DTC storage",
+        "Clear DTC and verify"
+      ],
+      "expected_results": [
+        "Diagnostic module initializes successfully",
+        "Diagnostic event is captured",
+        "Correct DTC is stored",
+        "DTC can be read successfully",
+        "DTC is cleared properly"
+      ],
+      "priority": "High",
+      "category": "Diagnostic",
+      "created_date": "2026-04-06T13:57:19.140495"
+    },
+    {
+      "test_id": "TC_SWS_DEM_002_004",
+      "name": "Test for DTC Storage",
+      "description": "Functional test case to verify: When a diagnostic event occurs, the corresponding DTC shall be stored in non-volatile memory.",
+      "requirement_id": "SWS_DEM_002",
+      "preconditions": [
+        "AUTOSAR software stack is properly configured",
+        "All required modules are initialized",
+        "System is in a stable state",
+        "Requirement SWS_DEM_001 is satisfied"
+      ],
+      "test_steps": [
+        "Initialize diagnostic module",
+        "Trigger diagnostic event",
+        "Read diagnostic trouble code (DTC)",
+        "Verify DTC storage",
+        "Clear DTC and verify"
+      ],
+      "expected_results": [
+        "Diagnostic module initializes successfully",
+        "Diagnostic event is captured",
+        "Correct DTC is stored",
+        "DTC can be read successfully",
+        "DTC is cleared properly"
+      ],
+      "priority": "High",
+      "category": "Diagnostic",
+      "created_date": "2026-04-06T13:57:19.140501"
+    },
+    {
+      "test_id": "TC_SWS_NVM_001_005",
+      "name": "Test for Non-Volatile Memory Initialization",
+      "description": "Functional test case to verify: The NvM module shall initialize and verify the integrity of all configured memory blocks on startup.",
+      "requirement_id": "SWS_NVM_001",
+      "preconditions": [
+        "AUTOSAR software stack is properly configured",
+        "All required modules are initialized",
+        "System is in a stable state"
+      ],
+      "test_steps": [
+        "Initialize memory module",
+        "Write test data to memory",
+        "Read back data from memory",
+        "Verify data integrity",
+        "Perform memory cleanup"
+      ],
+      "expected_results": [
+        "Memory module initializes successfully",
+        "Data is written correctly",
+        "Read data matches written data",
+        "Data integrity is maintained",
+        "Memory is cleaned up successfully"
+      ],
+      "priority": "High",
+      "category": "Memory",
+      "created_date": "2026-04-06T13:57:19.140505"
+    },
+    {
+      "test_id": "TC_SWS_NVM_002_006",
+      "name": "Test for Data Write Operation",
+      "description": "Functional test case to verify: The NvM module shall write data to non-volatile memory and ensure data integrity through checksums.",
+      "requirement_id": "SWS_NVM_002",
+      "preconditions": [
+        "AUTOSAR software stack is properly configured",
+        "All required modules are initialized",
+        "System is in a stable state",
+        "Requirement SWS_NVM_001 is satisfied"
+      ],
+      "test_steps": [
+        "Initialize memory module",
+        "Write test data to memory",
+        "Read back data from memory",
+        "Verify data integrity",
+        "Perform memory cleanup"
+      ],
+      "expected_results": [
+        "Memory module initializes successfully",
+        "Data is written correctly",
+        "Read data matches written data",
+        "Data integrity is maintained",
+        "Memory is cleaned up successfully"
+      ],
+      "priority": "High",
+      "category": "Memory",
+      "created_date": "2026-04-06T13:57:19.140508"
+    },
+    {
+      "test_id": "TC_SWS_OS_001_007",
+      "name": "Test for Operating System Initialization",
+      "description": "Functional test case to verify: The AUTOSAR OS shall initialize all configured tasks, alarms, and resources before starting the application.",
+      "requirement_id": "SWS_OS_001",
+      "preconditions": [
+        "AUTOSAR software stack is properly configured",
+        "All required modules are initialized",
+        "System is in a stable state"
+      ],
+      "test_steps": [
+        "Initialize the module under test",
+        "Configure module parameters",
+        "Execute the functionality",
+        "Verify the output",
+        "Cleanup and reset"
+      ],
+      "expected_results": [
+        "Module initializes without errors",
+        "Parameters are set correctly",
+        "Functionality executes as expected",
+        "Output meets specification requirements",
+        "System returns to stable state"
+      ],
+      "priority": "Critical",
+      "category": "Operating System",
+      "created_date": "2026-04-06T13:57:19.140512"
+    },
+    {
+      "test_id": "TC_SWS_OS_002_008",
+      "name": "Test for Task Scheduling",
+      "description": "Functional test case to verify: The OS shall schedule tasks according to their priority and activation conditions.",
+      "requirement_id": "SWS_OS_002",
+      "preconditions": [
+        "AUTOSAR software stack is properly configured",
+        "All required modules are initialized",
+        "System is in a stable state",
+        "Requirement SWS_OS_001 is satisfied"
+      ],
+      "test_steps": [
+        "Initialize the module under test",
+        "Configure module parameters",
+        "Execute the functionality",
+        "Verify the output",
+        "Cleanup and reset"
+      ],
+      "expected_results": [
+        "Module initializes without errors",
+        "Parameters are set correctly",
+        "Functionality executes as expected",
+        "Output meets specification requirements",
+        "System returns to stable state"
+      ],
+      "priority": "Critical",
+      "category": "Operating System",
+      "created_date": "2026-04-06T13:57:19.140515"
+    },
+    {
+      "test_id": "TC_SWS_CAN_001_009",
+      "name": "Test for CAN Driver Initialization",
+      "description": "Functional test case to verify: The CAN driver shall initialize the hardware and configure baudrate, filters, and mailboxes.",
+      "requirement_id": "SWS_CAN_001",
+      "preconditions": [
+        "AUTOSAR software stack is properly configured",
+        "All required modules are initialized",
+        "System is in a stable state"
+      ],
+      "test_steps": [
+        "Initialize the communication module",
+        "Configure communication parameters as per specification",
+        "Send test message through the configured channel",
+        "Verify message transmission",
+        "Check for acknowledgment"
+      ],
+      "expected_results": [
+        "Module initializes successfully",
+        "Configuration is applied correctly",
+        "Message is transmitted without errors",
+        "Acknowledgment is received",
+        "No errors reported"
+      ],
+      "priority": "High",
+      "category": "Communication",
+      "created_date": "2026-04-06T13:57:19.140518"
+    },
+    {
+      "test_id": "TC_SWS_CAN_002_010",
+      "name": "Test for CAN Message Reception",
+      "description": "Functional test case to verify: The CAN driver shall receive messages and notify the upper layers through configured callbacks.",
+      "requirement_id": "SWS_CAN_002",
+      "preconditions": [
+        "AUTOSAR software stack is properly configured",
+        "All required modules are initialized",
+        "System is in a stable state",
+        "Requirement SWS_CAN_001 is satisfied"
+      ],
+      "test_steps": [
+        "Initialize the communication module",
+        "Configure communication parameters as per specification",
+        "Send test message through the configured channel",
+        "Verify message transmission",
+        "Check for acknowledgment"
+      ],
+      "expected_results": [
+        "Module initializes successfully",
+        "Configuration is applied correctly",
+        "Message is transmitted without errors",
+        "Acknowledgment is received",
+        "No errors reported"
+      ],
+      "priority": "High",
+      "category": "Communication",
+      "created_date": "2026-04-06T13:57:19.140521"
+    }
+  ]
+}

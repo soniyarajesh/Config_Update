@@ -1,0 +1,419 @@
+<?xml version='1.0' encoding='utf-8'?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_4-2-2.xsd">
+  <AR-PACKAGES>
+    <AR-PACKAGE>
+      <SHORT-NAME>Test_Communication</SHORT-NAME>
+      <ELEMENTS>
+        <ECUC-CONTAINER-VALUE>
+          <SHORT-NAME>TC_SWS_COM_001_001</SHORT-NAME>
+          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/TestConfig/Communication</DEFINITION-REF>
+          <PARAMETER-VALUES>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>TestId</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/TestId</DEFINITION-REF>
+              <VALUE>TC_SWS_COM_001_001</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>TestName</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/TestName</DEFINITION-REF>
+              <VALUE>Test for Communication Stack Initialization</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>RequirementId</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/RequirementId</DEFINITION-REF>
+              <VALUE>SWS_COM_001</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>Priority</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/Priority</DEFINITION-REF>
+              <VALUE>High</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>Category</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/Category</DEFINITION-REF>
+              <VALUE>Communication</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+          </PARAMETER-VALUES>
+        </ECUC-CONTAINER-VALUE>
+      </ELEMENTS>
+    </AR-PACKAGE>
+    <AR-PACKAGE>
+      <SHORT-NAME>CommunicationConfig</SHORT-NAME>
+      <ELEMENTS>
+        <I-PDU>
+          <SHORT-NAME>IPDU_TC_SWS_COM_001_001</SHORT-NAME>
+          <LENGTH>8</LENGTH>
+        </I-PDU>
+      </ELEMENTS>
+    </AR-PACKAGE>
+    <AR-PACKAGE>
+      <SHORT-NAME>Test_Communication</SHORT-NAME>
+      <ELEMENTS>
+        <ECUC-CONTAINER-VALUE>
+          <SHORT-NAME>TC_SWS_COM_002_002</SHORT-NAME>
+          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/TestConfig/Communication</DEFINITION-REF>
+          <PARAMETER-VALUES>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>TestId</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/TestId</DEFINITION-REF>
+              <VALUE>TC_SWS_COM_002_002</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>TestName</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/TestName</DEFINITION-REF>
+              <VALUE>Test for Message Transmission</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>RequirementId</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/RequirementId</DEFINITION-REF>
+              <VALUE>SWS_COM_002</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>Priority</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/Priority</DEFINITION-REF>
+              <VALUE>High</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>Category</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/Category</DEFINITION-REF>
+              <VALUE>Communication</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+          </PARAMETER-VALUES>
+        </ECUC-CONTAINER-VALUE>
+      </ELEMENTS>
+    </AR-PACKAGE>
+    <AR-PACKAGE>
+      <SHORT-NAME>CommunicationConfig</SHORT-NAME>
+      <ELEMENTS>
+        <I-PDU>
+          <SHORT-NAME>IPDU_TC_SWS_COM_002_002</SHORT-NAME>
+          <LENGTH>8</LENGTH>
+        </I-PDU>
+      </ELEMENTS>
+    </AR-PACKAGE>
+    <AR-PACKAGE>
+      <SHORT-NAME>Test_Diagnostic</SHORT-NAME>
+      <ELEMENTS>
+        <ECUC-CONTAINER-VALUE>
+          <SHORT-NAME>TC_SWS_DEM_001_003</SHORT-NAME>
+          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/TestConfig/Diagnostic</DEFINITION-REF>
+          <PARAMETER-VALUES>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>TestId</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/TestId</DEFINITION-REF>
+              <VALUE>TC_SWS_DEM_001_003</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>TestName</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/TestName</DEFINITION-REF>
+              <VALUE>Test for Diagnostic Event Manager Initialization</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>RequirementId</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/RequirementId</DEFINITION-REF>
+              <VALUE>SWS_DEM_001</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>Priority</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/Priority</DEFINITION-REF>
+              <VALUE>High</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>Category</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/Category</DEFINITION-REF>
+              <VALUE>Diagnostic</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+          </PARAMETER-VALUES>
+        </ECUC-CONTAINER-VALUE>
+      </ELEMENTS>
+    </AR-PACKAGE>
+    <AR-PACKAGE>
+      <SHORT-NAME>DiagnosticConfig</SHORT-NAME>
+      <ELEMENTS>
+        <DIAGNOSTIC-TROUBLE-CODE>
+          <SHORT-NAME>DTC_TC_SWS_DEM_001_003</SHORT-NAME>
+          <TROUBLE-CODE>0x000001</TROUBLE-CODE>
+        </DIAGNOSTIC-TROUBLE-CODE>
+      </ELEMENTS>
+    </AR-PACKAGE>
+    <AR-PACKAGE>
+      <SHORT-NAME>Test_Diagnostic</SHORT-NAME>
+      <ELEMENTS>
+        <ECUC-CONTAINER-VALUE>
+          <SHORT-NAME>TC_SWS_DEM_002_004</SHORT-NAME>
+          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/TestConfig/Diagnostic</DEFINITION-REF>
+          <PARAMETER-VALUES>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>TestId</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/TestId</DEFINITION-REF>
+              <VALUE>TC_SWS_DEM_002_004</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>TestName</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/TestName</DEFINITION-REF>
+              <VALUE>Test for DTC Storage</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>RequirementId</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/RequirementId</DEFINITION-REF>
+              <VALUE>SWS_DEM_002</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>Priority</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/Priority</DEFINITION-REF>
+              <VALUE>High</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>Category</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/Category</DEFINITION-REF>
+              <VALUE>Diagnostic</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+          </PARAMETER-VALUES>
+        </ECUC-CONTAINER-VALUE>
+      </ELEMENTS>
+    </AR-PACKAGE>
+    <AR-PACKAGE>
+      <SHORT-NAME>DiagnosticConfig</SHORT-NAME>
+      <ELEMENTS>
+        <DIAGNOSTIC-TROUBLE-CODE>
+          <SHORT-NAME>DTC_TC_SWS_DEM_002_004</SHORT-NAME>
+          <TROUBLE-CODE>0x000001</TROUBLE-CODE>
+        </DIAGNOSTIC-TROUBLE-CODE>
+      </ELEMENTS>
+    </AR-PACKAGE>
+    <AR-PACKAGE>
+      <SHORT-NAME>Test_Memory</SHORT-NAME>
+      <ELEMENTS>
+        <ECUC-CONTAINER-VALUE>
+          <SHORT-NAME>TC_SWS_NVM_001_005</SHORT-NAME>
+          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/TestConfig/Memory</DEFINITION-REF>
+          <PARAMETER-VALUES>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>TestId</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/TestId</DEFINITION-REF>
+              <VALUE>TC_SWS_NVM_001_005</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>TestName</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/TestName</DEFINITION-REF>
+              <VALUE>Test for Non-Volatile Memory Initialization</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>RequirementId</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/RequirementId</DEFINITION-REF>
+              <VALUE>SWS_NVM_001</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>Priority</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/Priority</DEFINITION-REF>
+              <VALUE>High</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>Category</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/Category</DEFINITION-REF>
+              <VALUE>Memory</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+          </PARAMETER-VALUES>
+        </ECUC-CONTAINER-VALUE>
+      </ELEMENTS>
+    </AR-PACKAGE>
+    <AR-PACKAGE>
+      <SHORT-NAME>Test_Memory</SHORT-NAME>
+      <ELEMENTS>
+        <ECUC-CONTAINER-VALUE>
+          <SHORT-NAME>TC_SWS_NVM_002_006</SHORT-NAME>
+          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/TestConfig/Memory</DEFINITION-REF>
+          <PARAMETER-VALUES>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>TestId</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/TestId</DEFINITION-REF>
+              <VALUE>TC_SWS_NVM_002_006</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>TestName</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/TestName</DEFINITION-REF>
+              <VALUE>Test for Data Write Operation</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>RequirementId</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/RequirementId</DEFINITION-REF>
+              <VALUE>SWS_NVM_002</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>Priority</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/Priority</DEFINITION-REF>
+              <VALUE>High</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>Category</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/Category</DEFINITION-REF>
+              <VALUE>Memory</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+          </PARAMETER-VALUES>
+        </ECUC-CONTAINER-VALUE>
+      </ELEMENTS>
+    </AR-PACKAGE>
+    <AR-PACKAGE>
+      <SHORT-NAME>Test_Operating_System</SHORT-NAME>
+      <ELEMENTS>
+        <ECUC-CONTAINER-VALUE>
+          <SHORT-NAME>TC_SWS_OS_001_007</SHORT-NAME>
+          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/TestConfig/Operating System</DEFINITION-REF>
+          <PARAMETER-VALUES>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>TestId</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/TestId</DEFINITION-REF>
+              <VALUE>TC_SWS_OS_001_007</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>TestName</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/TestName</DEFINITION-REF>
+              <VALUE>Test for Operating System Initialization</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>RequirementId</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/RequirementId</DEFINITION-REF>
+              <VALUE>SWS_OS_001</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>Priority</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/Priority</DEFINITION-REF>
+              <VALUE>Critical</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>Category</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/Category</DEFINITION-REF>
+              <VALUE>Operating System</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+          </PARAMETER-VALUES>
+        </ECUC-CONTAINER-VALUE>
+      </ELEMENTS>
+    </AR-PACKAGE>
+    <AR-PACKAGE>
+      <SHORT-NAME>Test_Operating_System</SHORT-NAME>
+      <ELEMENTS>
+        <ECUC-CONTAINER-VALUE>
+          <SHORT-NAME>TC_SWS_OS_002_008</SHORT-NAME>
+          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/TestConfig/Operating System</DEFINITION-REF>
+          <PARAMETER-VALUES>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>TestId</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/TestId</DEFINITION-REF>
+              <VALUE>TC_SWS_OS_002_008</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>TestName</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/TestName</DEFINITION-REF>
+              <VALUE>Test for Task Scheduling</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>RequirementId</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/RequirementId</DEFINITION-REF>
+              <VALUE>SWS_OS_002</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>Priority</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/Priority</DEFINITION-REF>
+              <VALUE>Critical</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>Category</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/Category</DEFINITION-REF>
+              <VALUE>Operating System</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+          </PARAMETER-VALUES>
+        </ECUC-CONTAINER-VALUE>
+      </ELEMENTS>
+    </AR-PACKAGE>
+    <AR-PACKAGE>
+      <SHORT-NAME>Test_Communication</SHORT-NAME>
+      <ELEMENTS>
+        <ECUC-CONTAINER-VALUE>
+          <SHORT-NAME>TC_SWS_CAN_001_009</SHORT-NAME>
+          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/TestConfig/Communication</DEFINITION-REF>
+          <PARAMETER-VALUES>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>TestId</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/TestId</DEFINITION-REF>
+              <VALUE>TC_SWS_CAN_001_009</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>TestName</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/TestName</DEFINITION-REF>
+              <VALUE>Test for CAN Driver Initialization</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>RequirementId</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/RequirementId</DEFINITION-REF>
+              <VALUE>SWS_CAN_001</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>Priority</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/Priority</DEFINITION-REF>
+              <VALUE>High</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>Category</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/Category</DEFINITION-REF>
+              <VALUE>Communication</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+          </PARAMETER-VALUES>
+        </ECUC-CONTAINER-VALUE>
+      </ELEMENTS>
+    </AR-PACKAGE>
+    <AR-PACKAGE>
+      <SHORT-NAME>CommunicationConfig</SHORT-NAME>
+      <ELEMENTS>
+        <I-PDU>
+          <SHORT-NAME>IPDU_TC_SWS_CAN_001_009</SHORT-NAME>
+          <LENGTH>8</LENGTH>
+        </I-PDU>
+      </ELEMENTS>
+    </AR-PACKAGE>
+    <AR-PACKAGE>
+      <SHORT-NAME>Test_Communication</SHORT-NAME>
+      <ELEMENTS>
+        <ECUC-CONTAINER-VALUE>
+          <SHORT-NAME>TC_SWS_CAN_002_010</SHORT-NAME>
+          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/TestConfig/Communication</DEFINITION-REF>
+          <PARAMETER-VALUES>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>TestId</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/TestId</DEFINITION-REF>
+              <VALUE>TC_SWS_CAN_002_010</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>TestName</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/TestName</DEFINITION-REF>
+              <VALUE>Test for CAN Message Reception</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>RequirementId</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/RequirementId</DEFINITION-REF>
+              <VALUE>SWS_CAN_002</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>Priority</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/Priority</DEFINITION-REF>
+              <VALUE>High</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>Category</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/AUTOSAR/TestConfig/Parameters/Category</DEFINITION-REF>
+              <VALUE>Communication</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+          </PARAMETER-VALUES>
+        </ECUC-CONTAINER-VALUE>
+      </ELEMENTS>
+    </AR-PACKAGE>
+    <AR-PACKAGE>
+      <SHORT-NAME>CommunicationConfig</SHORT-NAME>
+      <ELEMENTS>
+        <I-PDU>
+          <SHORT-NAME>IPDU_TC_SWS_CAN_002_010</SHORT-NAME>
+          <LENGTH>8</LENGTH>
+        </I-PDU>
+      </ELEMENTS>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>

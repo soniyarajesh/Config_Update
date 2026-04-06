@@ -1,0 +1,94 @@
+{
+  "requirements": [
+    {
+      "req_id": "SWS_COM_001",
+      "title": "Communication Stack Initialization",
+      "description": "The communication stack shall be initialized before any communication can occur. All required modules must be configured and ready.",
+      "category": "Communication",
+      "priority": "High",
+      "dependencies": [],
+      "testable": true
+    },
+    {
+      "req_id": "SWS_COM_002",
+      "title": "Message Transmission",
+      "description": "The communication module shall transmit messages according to the configured protocol and timing parameters.",
+      "category": "Communication",
+      "priority": "High",
+      "dependencies": ["SWS_COM_001"],
+      "testable": true
+    },
+    {
+      "req_id": "SWS_DEM_001",
+      "title": "Diagnostic Event Manager Initialization",
+      "description": "The Diagnostic Event Manager shall initialize all configured DTCs and diagnostic events on startup.",
+      "category": "Diagnostic",
+      "priority": "High",
+      "dependencies": [],
+      "testable": true
+    },
+    {
+      "req_id": "SWS_DEM_002",
+      "title": "DTC Storage",
+      "description": "When a diagnostic event occurs, the corresponding DTC shall be stored in non-volatile memory.",
+      "category": "Diagnostic",
+      "priority": "High",
+      "dependencies": ["SWS_DEM_001"],
+      "testable": true
+    },
+    {
+      "req_id": "SWS_NVM_001",
+      "title": "Non-Volatile Memory Initialization",
+      "description": "The NvM module shall initialize and verify the integrity of all configured memory blocks on startup.",
+      "category": "Memory",
+      "priority": "High",
+      "dependencies": [],
+      "testable": true
+    },
+    {
+      "req_id": "SWS_NVM_002",
+      "title": "Data Write Operation",
+      "description": "The NvM module shall write data to non-volatile memory and ensure data integrity through checksums.",
+      "category": "Memory",
+      "priority": "High",
+      "dependencies": ["SWS_NVM_001"],
+      "testable": true
+    },
+    {
+      "req_id": "SWS_OS_001",
+      "title": "Operating System Initialization",
+      "description": "The AUTOSAR OS shall initialize all configured tasks, alarms, and resources before starting the application.",
+      "category": "Operating System",
+      "priority": "Critical",
+      "dependencies": [],
+      "testable": true
+    },
+    {
+      "req_id": "SWS_OS_002",
+      "title": "Task Scheduling",
+      "description": "The OS shall schedule tasks according to their priority and activation conditions.",
+      "category": "Operating System",
+      "priority": "Critical",
+      "dependencies": ["SWS_OS_001"],
+      "testable": true
+    },
+    {
+      "req_id": "SWS_CAN_001",
+      "title": "CAN Driver Initialization",
+      "description": "The CAN driver shall initialize the hardware and configure baudrate, filters, and mailboxes.",
+      "category": "Communication",
+      "priority": "High",
+      "dependencies": [],
+      "testable": true
+    },
+    {
+      "req_id": "SWS_CAN_002",
+      "title": "CAN Message Reception",
+      "description": "The CAN driver shall receive messages and notify the upper layers through configured callbacks.",
+      "category": "Communication",
+      "priority": "High",
+      "dependencies": ["SWS_CAN_001"],
+      "testable": true
+    }
+  ]
+}
